@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <header>
-        <div>
+  <div class="container">
+    <header class="header">
+        <div class="header-text-section">
             <h2>Hello, I'm</h2>
             <h1>Josue Maiquez</h1>
             <h2>Web Development | AI/ML | Class of 2027</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Eveniet modi fuga, architecto illo, doloremque totam sed quo blanditiis 
-                exercitationem debitis rerum adipisci. In necessitatibus, 
-                laboriosam ipsa omnis officia adipisci sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
         </div>
-        <div>
-            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="500px">
+        <div class="header-image-section">
+            <img class="header-image" src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="500px">
         </div>
     </header>
 
-    <section>
-        <div>Skills</div>
-        <div>
+    <section class="skills-section">
+        <div class="skills-title">Skills</div>
+        <div class="skills-card">
             <p>HTML, CSS, Javascript, SQL</p>
         </div>
     </section>
 
-    <section>
+    <section class="projects">
         <h2>Projects</h2>
-        <div>
+        <div class="carousel">
             <button>&#8592;</button>
-            <div>
+            <div class="projects-section">
+
+                <div class="project-card">
+                    <img src="" alt="an image" class="project-image">
+                    <h3 class="project-title">A Project</h3>
+                    <p class="project-text">Some text</p>
+                    <a class="project-link">Link</a>
+                </div>
 
             </div>
             <button>&#8594;</button>
@@ -93,6 +98,16 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div>
+                <p>&copy; 2025 Josue Maiquez</p>
+                <a href="https://www.linkedin.com/in/josue-maiquez" target="_blank">LinkedIn</a>
+                <a href="https://www.github.com/j-maiquez" target="_blank">Github</a>
+                <a href="">Instagram</a>
+            </div>
+        </footer>
+
   </div>    
 </body>
 </html>
